@@ -70,6 +70,7 @@ void loop() {
             left.write (left_value );
             right.write(right_value);
             Serial.printf("left %u right %u\n", left_value, right_value);
+            last_frame = incoming_frame;
           }
        }
     }
