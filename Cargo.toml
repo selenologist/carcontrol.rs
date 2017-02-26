@@ -1,0 +1,8 @@
+[package]
+name = "carcontrol"
+version = "0.1.0"
+authors = ["Selenologist <selenologist@users.noreply.github.com>"]
+
+[dependencies]
+byteorder = "1"
+sdl2 = "0.29"
